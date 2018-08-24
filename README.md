@@ -7,19 +7,7 @@ TypeScript [language service plugin](https://blogs.msdn.microsoft.com/typescript
 
 To use it the plugin:
 
- * install the plugin with `npm install tslint-language-service`
- 
- * enable the plugin in your `tsconfig.json` file:
-
-```json
-{
-  "compilerOptions": {
-    "plugins": [
-      { "name": "tslint-language-service"}
-    ]
-  }
-}
-```
+ * install the plugin with `npx ts-plugin install tslint-language-service`
 
  * If you are using TypeScript < 2.2.1, you must execute tsserver with [tsserver-plugins](https://github.com/angelozerr/tsserver-plugins).
  
